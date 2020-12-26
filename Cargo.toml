@@ -10,8 +10,9 @@ readme = "README.md"
 
 [dependencies]
 byteorder = "1"
+img = { package = "image", version = "0.23.12", optional = true }
 png = { version = "0.16", optional = true }
 
 [features]
 default = ["pngio"]
-pngio = ["png"]
+pngio = ["png", "img"]

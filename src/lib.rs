@@ -126,6 +126,8 @@
 extern crate byteorder;
 
 #[cfg(feature = "pngio")]
+extern crate img;
+#[cfg(feature = "pngio")]
 extern crate png;
 
 #[cfg(feature = "pngio")]
